@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>
+      Tab Image Gallery
+    </title>
+  </head>
+  <body>
+    <h1 align="center">Geeks for Geeks</h1>
+    <h4 align="center">A computer Science Portal for Geeks</h4>
+    <p align="center">Tab Image Gallery</p>
+    
+    <div class="row">
+      <div id="geeks" style="margin-left:150px">
+        Here the photo will be displayed
+      </div>
+      
+      <div class="column">
+        <img src="Landscape-Color.jpg" width="50%" height="50%" onclick="gfg(this);">
+        <img src="Captureddd.JPG" width="50%" height="50%" onclick="gfg(this);">
+        <img src="kkkk.jpeg" width="50%" height="50%" onclick="gfg(this);">
+      </div>
+      
+      <div class="column">
+        <span onclick="this.parentElement.style.display='none'"></span>
+        
+        <img id="expand" style="width:70%; height:60% margin-top:15px">
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
